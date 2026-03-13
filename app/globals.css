@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 背景を漆黒に */
+  --background: #000000;
+  /* 文字を蛍光グリーンに */
+  --foreground: #00ff00;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* ターミナル感を出すために等幅フォントを優先 */
+  font-family: 'Courier New', Courier, monospace;
+}
